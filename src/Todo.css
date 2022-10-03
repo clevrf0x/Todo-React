@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-weight: bolder;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.add_task {
+  background-color: aliceblue;
+  border: 1px solid #282c34;
+  border-radius: 8px;
+  height: 3rem;
+  width: 40rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.add_task_btn {
+  border: 1px solid #343a40;
+  background-color: #343a40;
+  border-radius: 8px;
+  height: 3.2rem;
+  width: 6rem;
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+.add_task_btn:hover {
+  cursor: pointer;
+  background-color: #343a35;
+  border: 1px solid #343a35;
+}
+
+.taskbox {
+  width: 47rem;
+  margin-top: 2rem;
+  border: 2px solid #343a40;
+}
+
+.task_heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 0 1.5rem;
+}
+
+.todo-group {
+  display: flex;
+  font-size: 16px;
+  padding: 0 1.3rem;
+  border: 1px solid #343a40;
+}
+
+.todo {
+  margin-left: 0.5rem;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.del-icon {
+  margin-top: 1rem;
+}
+
+.del-icon:hover {
+  color: #e65c4f;
+  cursor: pointer;
+}
