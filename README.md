@@ -5,7 +5,8 @@
 > This is a small react todo project made for learning react basics.
 
 ## Overview
-<img src="https://raw.githubusercontent.com/clevrf0x/Todo-React/main/git_assets/home-empty.png" width="49%"> <img src="https://raw.githubusercontent.com/clevrf0x/Todo-React/main/git_assets/home-with-data.png" width="49%">
+<img src="https://raw.githubusercontent.com/clevrf0x/Todo-React/main/git_assets/home-empty.png"> 
+<img src="https://raw.githubusercontent.com/clevrf0x/Todo-React/main/git_assets/home-with-data.png">
 
 ---
 
